@@ -1,6 +1,5 @@
 from tkinter import *
 from tkinter.ttk import *
-from tkinter import Scrollbar
 
 window = Tk()
 window.title("Radio Button")
@@ -13,6 +12,5 @@ rad1.grid(column=1,row=0)
 rad2.grid(column=2,row=0)
 rad3.grid(column=3,row=0)
 
-txt = ScrolledText(window, width = 40, height = 10)
 window.geometry('200x200')
 window.mainloop()
