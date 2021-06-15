@@ -4,6 +4,7 @@ from tkinter.ttk import *
 window = Tk()
 window.title("Radio Button")
 
+#Radio button widget
 rad1 = Radiobutton(window, text="Python", value = 1)
 rad2 = Radiobutton(window, text="Java", value = 2)
 rad3 = Radiobutton(window, text="C",value = 3)

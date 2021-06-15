@@ -7,11 +7,13 @@ window.title("Combo Tab")
 l1 = Label(window, text = "Welcome!")
 l1.grid(column=1,row=0)
 
+#Combo widget
 combo = Combobox(window)
 combo['values'] = (1,2,3,4,5,6,7,8,9,10,11,12)
 combo.current(5)
 combo.grid(column=1,row=1)
 
+#CheckBox widget
 chk_state = BooleanVar()
 chk_state.set(True)
 chk = Checkbutton(window,text = 'Select', var=chk_state)
